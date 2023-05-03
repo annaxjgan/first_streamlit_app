@@ -32,5 +32,5 @@ streamlit.text(fruityvice_response.json())
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # Create pandas table from data
 #streamlit.dataframe(fruityvice_normalized)
-fruityvice_normalized
+streamlit.text(fruityvice_normalized)
 
